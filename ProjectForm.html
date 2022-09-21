@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project Information</title>
+</head>
+
+<body>
+
+    <header style="background-color: linen; color: indianred;"> 
+        <center>
+            <br>
+            <h1 style="color: indianred; text-align: center;">Julie PERRET</h1>
+            <h3 style="color: indianred; text-align: center;">Communication & Marketing Officer </h3>
+            <img src="PICTURES/logo.png">
+            <br>
+            <br>
+            <nav>
+
+                <ul style="display: inline;">
+                    <li style="display: inline;"><a href="Index.html">Home</a></li>
+                    <li style="display: inline;"><a href="Projects.html">Project Webpage</a></li>
+                    <li style="display: inline;"><a href="Project1.html">Project 1</a></li>
+                    <li style="display: inline;"><a href="AboutUS.html">About Us</a></li>
+                    <li style="display: inline;"><a href="ProjectForm.html">Project Information</a></li>
+                    <li style="display: inline;"><a href="SignUp.html">Sign Up</a></li>
+                    <li style="display: inline;"><a href="feedbackfForm.html">Feed Back</a></li>
+                </ul>
+            </nav>
+            <br>
+        </center>
+    </header>
+
+    <form>
+        <fieldset id="Project Information">
+            <legend>Project Information</legend>
+            <ol>
+                <li>
+                    <label for="name"> Name</label>
+                    <input type="text" name="name">
+                </li>
+                <br>
+                <li>
+                    <label for="priority"> Priority</label>
+                    <input type="range" min="0" max="0"
+                            name="priority" value="0">
+                </li>
+                <br>
+                <li>
+                    <label for="estimated_hours"> Estimated Hours</label>
+                    <input type="number" name="estimated_hours"
+                            min="0" max="1000">
+                </li>
+                <br>
+                <li>
+                    <label for="start_date">Start date</label>
+                    <input type="date" name="start_date" id="start_date"
+                            value="2010-12-01">
+                </li>
+                <br>
+                <li>
+                    <label for="email">Email Contact</label>
+                    <input type="email" name="email" id="email">
+                </li>
+                <br>
+                <li>
+                    <label for="url">Staging URL</label>
+                    <input type="url" name="url" id="url">
+                </li>
+                <br>
+                <li>
+                    <input type="submit" value="Submit">
+                </li>
+            </ol>
+        </fieldset>
+        <br>
+        <fieldset id="Adresse_Information">
+            <legend>Adresse Information</legend>
+            <ol>
+                <li>
+                    <label for="city"> City</label>
+                    <input type="text" name="city" id="city">
+                </li>
+                <br>
+                <li>
+                    <label for="PostCode"> Post Code</label>
+                    <input type="text" name="postcode" id="postcode">
+                </li>
+                <br>
+                <li>
+                    <label for="bulding_number"> Bulding Number</label>
+                    <input type="text" name="bulding_number" id="bulding_number">
+                </li>
+                <br>
+                <li>
+                    <input type="submit" value="Submit">
+                </li>
+            </ol>
+        </fieldset>
+            <br>
+        <fieldset id="Company_Informations">
+                <legend>Company Information</legend>
+                <ol>
+                    <li>
+                        <label for="number_of_employee"> Number of Employee</label>
+                        <input type="number" name="number_of_employee" id="number_of_employee"
+                        min="0" max="1000">
+                    </li> 
+                    <br>
+                    <li>
+                        <label for="Budget"> Budget</label>
+                        <input type="number" name="Budget" id="budget">
+                    </li>     
+                    <br> 
+                    <li>
+                        <label for="Number_of_departements"> Number Of Departements</label>
+                        <input type="number" name="Number_of_departements" id="Number_of_departements">
+                    </li>  
+                    <br>
+                    <li>
+                        <label for="company_localisation"> Company Localisation</label>
+                        <input type="text" name="company_localisation" id="company_localisation">
+                    <br>
+                    <br>
+                    <li>
+                        <input type="submit" value="Submit">
+                    </li> 
+            </fieldset>
+
+    </form>
+
+
+ <footer style="background-color: lavender; color: indianred;">
+    <p>Copyright</p>
+ </footer>
+
+
+</html>
